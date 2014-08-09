@@ -46,7 +46,7 @@ import java.util.Random;
 public class TreeDigest extends AbstractTDigest {
 
     private double compression = 100;
-    private GroupTree summary = new GroupTree();
+    protected GroupTree summary = new GroupTree();
     long count = 0; // package private for testing
 
     /**
